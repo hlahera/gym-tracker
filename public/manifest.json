@@ -1,0 +1,39 @@
+{
+  "short_name": "Gym Tracker",
+  "name": "Gym Tracker",
+  "description": "Registra entrenamientos y sube peso cada semana. Funciona sin conexión.",
+  "icons": [
+    {
+      "src": "/gym-tracker/favicon.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/gym-tracker/pwa-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/gym-tracker/pwa-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/gym-tracker/pwa-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/gym-tracker/",
+  "start_url": "/gym-tracker/",
+  "scope": "/gym-tracker/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#050505",
+  "background_color": "#050505",
+  "lang": "es"
+}

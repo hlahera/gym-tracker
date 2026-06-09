@@ -33,6 +33,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "build:web": "expo export -p web && npx workbox-cli generateSW workbox-config.js && node scripts/post-build-web.js",
+    "deploy:web": "node scripts/deploy-gh-pages.js",
     "preview:web": "npx serve dist"
   },
   "private": true
